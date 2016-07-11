@@ -1,0 +1,13 @@
+.row {
+    max-width: 100%;
+}
+
+.banner {
+    height: 100%;
+}
+
+.header nav{
+    text-align: right;
+    float: right;
+    width:100%;
+}
