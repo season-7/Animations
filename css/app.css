@@ -648,7 +648,11 @@
 
 
 
+/********************************************************************************
 
+Footer Section
+
+********************************************************************************/
 
 .footer-container {
     position: relative;
@@ -656,7 +660,16 @@
 	background-position: center center;
     background-size: cover;
     overflow: hidden;
-    height: 550px
+}
+
+.footer-container a{
+    font-size: 30px !important;
+	color: white;
+    border: 1px solid white;
+    padding: 6px 30px;
+    border-radius: 5px;
+    background: rgba(0,0,0, 0.5);
+    overflow: hidden;
 }
 
 .main-title {
@@ -709,118 +722,118 @@
 }
 
 @-webkit-keyframes bubblerise {
-  0% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-  5% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  99% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  100% {
-    bottom: 100%;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
+    0% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
+    5% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+        }
+    99% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+    }
+    100% {
+        bottom: 100%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
 }
 @-moz-keyframes bubblerise {
-  0% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-  5% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  99% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  100% {
-    bottom: 100%;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
+    0% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
+    5% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+        }
+    99% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+    }
+    100% {
+        bottom: 100%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
 }
 @-ms-keyframes bubblerise {
-  0% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-  5% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  99% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  100% {
-    bottom: 100%;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
+    0% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
+    5% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+        }
+    99% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+    }
+    100% {
+        bottom: 100%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
 }
 @keyframes bubblerise {
-  0% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
-  5% {
-    bottom: 0;
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  99% {
-    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-    opacity: 1;
-  }
-  100% {
-    bottom: 100%;
-    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-    opacity: 0;
-  }
+    0% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
+    5% {
+        bottom: 0;
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+        }
+    99% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+        opacity: 1;
+    }
+    100% {
+        bottom: 100%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
 }
 @-webkit-keyframes bubblewobble {
-  0% {
-    margin-left: 0;
-  }
-  50% {
-    margin-left: 2px;
-  }
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 2px;
+    }
 }
 @-moz-keyframes bubblewobble {
-  0% {
-    margin-left: 0;
-  }
-  50% {
-    margin-left: 2px;
-  }
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 2px;
+    }
 }
 @-ms-keyframes bubblewobble {
-  0% {
-    margin-left: 0;
-  }
-  50% {
-    margin-left: 2px;
-  }
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 2px;
+    }
 }
 @keyframes bubblewobble {
-  0% {
-    margin-left: 0;
-  }
-  50% {
-    margin-left: 2px;
-  }
+    0% {
+        margin-left: 0;
+    }
+    50% {
+        margin-left: 2px;
+    }
 }
