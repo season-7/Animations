@@ -287,8 +287,10 @@
 
 .did-you-know {
     position: relative;
-    height: 400px;
+    height: 700px;
     overflow: hidden;
+    background: #D3D3D3;
+    padding: 20px;
 }
 
 .did-you-know-header {
@@ -300,7 +302,7 @@
     top: 0px;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
     padding-top: 50px;
     
     position: absolute;
@@ -316,9 +318,11 @@
 
 .did-you-know div.facts-about:nth-child(1) {
     background: #D3D3D3;
+    opacity: 1;
+    margin-bottom: 20px;
 }
 
-.did-you-know div.facts-about:nth-child(2) {
+/*.did-you-know div.facts-about:nth-child(2) {
     background: #D3D3D3;
     
     -webkit-animation-delay: 15s;
@@ -461,11 +465,19 @@
 	    -webkit-transform: scale(1.1) translateX(-100%);
 	}
 	100% { opacity: 1 }
-}
+}*/
 
-.did-you-know  .columns{
+.did-you-know .columns{
     padding: 0px 20px;
     height: 100%;
+}
+
+.did-you-know .columns:nth-child(2){
+    padding-left: 0;
+}
+
+.did-you-know .columns:last-child{
+    padding-right: 0;
 }
 
 .facts-container {
@@ -530,4 +542,18 @@
 
 /*..................................................................................*/
 
+.did-u-knw-heading {
+    
+}
 
+.did-u-knw-heading span{
+    white-space: nowrap;
+}
+
+.heading-words{
+    
+}
+
+.heading-words span{
+    
+}
