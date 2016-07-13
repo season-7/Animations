@@ -100,19 +100,19 @@ bubbles();
 $(function() {            
     setInterval(function() {
         $('#f1_card').toggleClass("transformStyle transformRotate");
-    }, 9000)
+    }, 12000)
 })
 
 $(function() {            
     setInterval(function() {
         $('#f1_card1').toggleClass("transformStyle transformRotate");
-    }, 6000)
+    }, 9000)
 })
 
 $(function() {            
     setInterval(function() {
         $('#f1_card2').toggleClass("transformStyle transformRotate");
-    }, 12000)
+    }, 15000)
 })
 
 

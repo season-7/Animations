@@ -282,7 +282,7 @@
 }
 
 .padding {
-    padding: 0 200px;
+    padding: 0 20px;
 }
 
 .did-you-know {
@@ -343,6 +343,11 @@
     height: auto;
 }
 
+.facts-container img {
+    height: 250px;
+    width: 100%
+}
+
 .facts-container p{
     padding: 0 20px;
     margin: 0;
@@ -388,6 +393,10 @@
         margin: auto;
         width: 100%;
     }
+    
+    .padding {
+        padding: 20px 30px;
+    }
 }
 
 @media (min-width: 700px) {
@@ -410,6 +419,10 @@
         right: 0;
         margin: auto;
         width: 100%;
+    }
+    
+    .padding {
+        padding: 20px 50px;
     }
 }
 
@@ -434,6 +447,10 @@
         margin: auto;
         width: 100%;
     }
+    
+    .padding {
+        padding: 20px 100px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -456,6 +473,9 @@
         right: 0;
         margin: auto;
         width: 100%;
+    }
+    .padding {
+        padding: 20px 200px;
     }
 }
 
@@ -626,6 +646,20 @@ Footer Section
     overflow: hidden;
 }
 
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: transparent url(../images/pattern.png) repeat top left;
+    z-index: 2000;
+}
+.footer-container:after {
+    content: '';
+    background: transparent url(../images/pattern.png) repeat top left;
+    z-index: 2000;
+}
+
 .bubbles-button {
     position: absolute;
 	margin: 0;
@@ -639,6 +673,7 @@ Footer Section
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
     overflow: hidden;
+    z-index: 2000;
 }
 
 .bubbles-button h4{
@@ -653,6 +688,7 @@ Footer Section
     border-radius: 5px;
     background: rgba(0,0,0, 0.5);
     overflow: hidden;
+    
 }
 
 .main-title {
@@ -824,9 +860,10 @@ Footer Section
 
 
 .whole {
-    width: 80%;
     position: relative;
     margin: 10px auto 0 auto;
+    width: 100%;
+    text-align: center;
 }
 .whole .amazing span:first-child {
     opacity: 1;
@@ -838,7 +875,7 @@ Footer Section
 }
 .amazing span {
     color: #444;
-    font-size: 150%;
+    font-size: 141%;
     font-weight: normal;
 }
 .animals {
