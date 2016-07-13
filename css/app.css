@@ -651,7 +651,8 @@ Footer Section
     width: 100%;
     height: 100%;
     content: '';
-    background: transparent url(../images/pattern.png) repeat top left;
+    background: rgba(0,0,0,0.3);
+    /*background: transparent url(../images/pattern.png) repeat top left;*/
     z-index: 2000;
 }
 .footer-container:after {
