@@ -1,18 +1,55 @@
-$(document).foundation();
+var width, height;
+var part1, part2, fact_container1, fact_container2, fact_container3, part3;
 
+function setHeights(){
+    width = window.innerWidth;
+    height = window.innerHeight;
+    
+    part1 = document.getElementById('part1');
+    part1.style.minHeight = height+'px';
+    
+    part2 = document.getElementById('part2');
+    part2.style.minHeight = height * .70+'px';
+    
+    fact_container1 = document.getElementById('fact-container1');
+    //fact_container1.style.height = height * .65+'px';
+    fact_container1.style.height = height * .65+'px';
+    
+    fact_container2 = document.getElementById('fact-container2');
+    //fact_container2.style.height = height * .65+'px';
+    fact_container2.style.height = height * .65+'px';
+    
+    fact_container3 = document.getElementById('fact-container3');
+    //fact_container3.style.height = height * .65+'px';
+    fact_container3.style.height = height * .65+'px';
+    
+    part3 = document.getElementById('part3');
+    part3.style.height = height * .75 + 'px';
+}
 
-var width, height, footer_container;
+setHeights();
+
+$(function() {            
+    setInterval(function() {
+        $('#fact-container1').toggleClass("transformStyle transformRotate");
+    }, 12000)
+})
+
+$(function() {            
+    setInterval(function() {
+        $('#fact-container2').toggleClass("transformStyle transformRotate");
+    }, 9000)
+})
+
+$(function() {            
+    setInterval(function() {
+        $('#fact-container').toggleClass("transformStyle transformRotate");
+    }, 5000)
+})
+
 var $bubbles = $('.bubbles');
 
 function bubbles() {
-    width = window.innerWidth;
-    height = window.innerHeight * .75;
-    target = {x: 0, y: height};
-
-    footer_container = document.getElementById('footer-container');
-    footer_container.style.height = height+'px';
-    
-    
     // Settings
     var min_bubble_count = 20, // Minimum number of bubbles
     max_bubble_count = 260, // Maximum number of bubbles
@@ -94,26 +131,3 @@ $('.bubble-toggle').click(function(){
 });
 
 bubbles();
-
-
-
-$(function() {            
-    setInterval(function() {
-        $('#f1_card').toggleClass("transformStyle transformRotate");
-    }, 12000)
-})
-
-$(function() {            
-    setInterval(function() {
-        $('#f1_card1').toggleClass("transformStyle transformRotate");
-    }, 9000)
-})
-
-$(function() {            
-    setInterval(function() {
-        $('#f1_card2').toggleClass("transformStyle transformRotate");
-    }, 15000)
-})
-
-
-

@@ -1,3 +1,5 @@
+
+
 .row {
     max-width: 100%;
 }
@@ -42,6 +44,8 @@ PART ONE
 #part1 {
     
 }
+
+
 .banner {
     height: 100%;
     position: relative;
@@ -289,7 +293,7 @@ PART ONE
 
 .caption-text h1{
     font-size: 100px !important;
-	color: yellow;
+	color: orange;
     overflow: hidden;
 }
 
@@ -318,6 +322,24 @@ PART ONE
     text-decoration: none;
     list-style: none;
     display: inline-block;
+}
+
+.header nav ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 50px
+}
+
+.header nav ul li:hover a{
+    color: orange;
+}
+
+.header nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 /*************************************************************************
@@ -486,17 +508,20 @@ PART TWO
 
 .amazing {
     margin: auto;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+/*    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);*/
 }
+
 .amazing span {
-    color: #fff;
+    color: orange;
     font-size: 141%;
     font-weight: normal;
 }
+
 .animals {
     display: inline;
     text-indent: 10px;
 }
+
 .type span {
     position: absolute;
     opacity: 0;
@@ -506,6 +531,7 @@ PART TWO
     -ms-animation: rotateWord 18s linear infinite 0s;
     animation: rotateWord 18s linear infinite 0s;
 }
+
 .type span:nth-child(2) {
     -webkit-animation-delay: 6s;
     -ms-animation-delay: 6s;
