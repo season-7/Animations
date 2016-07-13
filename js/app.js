@@ -43,7 +43,7 @@ $(function() {
 
 $(function() {            
     setInterval(function() {
-        $('#fact-container').toggleClass("transformStyle transformRotate");
+        $('#fact-container3').toggleClass("transformStyle transformRotate");
     }, 5000)
 })
 
