@@ -595,7 +595,7 @@
   transition: all 1.0s linear;
 }
 .transformRotate {
-    transform: rotateY(180deg);
+    transform: rotateY(540deg);
     box-shadow: -5px 5px 5px #aaa;
 }
 .face {
